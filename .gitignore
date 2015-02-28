@@ -47,6 +47,7 @@ db/*.sqlite3
 /gems
 /specifications
 rerun.txt
+local_env.yml
 pickle-email-*.html
 .zeus.sock
 

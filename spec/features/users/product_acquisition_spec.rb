@@ -19,7 +19,7 @@ feature 'Product acquisition' do
     user = FactoryGirl.create(:user)
     login_as(user, scope: :user)
     visit root_path
-    expect(page).to have_content 'Download a free book'
+    expect(page).to have_content 'Download the book'
     click_link_or_button 'Download PDF'
     expect(page.response_headers['Content-Type']).to have_content 'application/pdf'
   end
