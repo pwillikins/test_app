@@ -7,11 +7,6 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-group :development, :test do
-  gem 'byebug'
-  gem 'web-console', '~> 2.0'
-  gem 'spring'
-end
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'gibbon'
@@ -29,6 +24,9 @@ group :development, :test do
   gem 'faker'
   gem 'rspec-rails'
   gem 'sqlite3'
+  gem 'byebug'
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
 end
 group :test do
   gem 'capybara'
